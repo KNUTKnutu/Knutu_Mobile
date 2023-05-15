@@ -2,18 +2,20 @@ using UnityEngine;
 
 public class KnutuCore : MonoBehaviour
 {
-    private void Awake()
+    void Awake()
     {
         KnutuCore[] objs = FindObjectsOfType<KnutuCore>();
 
-
-        if (objs.Length == 1)
-        {
+        if (this.isGameInit(objs)) {
             DontDestroyOnLoad(gameObject);
+            return;
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+
+        Destroy(gameObject);
+    }
+
+    bool isGameInit(KnutuCore[] _objs)
+    {
+        return _objs.Length == 1;
     }
 }
