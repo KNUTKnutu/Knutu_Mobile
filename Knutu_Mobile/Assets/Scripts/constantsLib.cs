@@ -7,6 +7,6 @@ public static class constantsLib
 
     public static string GetScenePath(string _sceneName)
     {
-        return this.SCENE_PATH_PREFIX + _sceneName;
+        return SCENE_PATH_PREFIX + _sceneName;
     }
 }
