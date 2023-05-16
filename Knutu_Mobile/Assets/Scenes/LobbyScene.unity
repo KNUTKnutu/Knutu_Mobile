@@ -298,7 +298,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 138907530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22584e1b476aab540bd0b4ba08b6a3d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a3fbf8ff951f9749b05dce84d5c3dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &175353638
@@ -359,10 +359,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lobby Scene
+  m_text: "Lobby Scene\n\uB85C\uBE44 \uC52C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 39dda4e4faf635843b0b6bc4c1cc8e28, type: 2}
+  m_sharedMaterial: {fileID: -9143500853837662700, guid: 39dda4e4faf635843b0b6bc4c1cc8e28, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -628,10 +628,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Scene
+  m_text: "Game Scene\n\uAC8C\uC784 \uC52C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9645f125beec90c4c984ec7f681fbb9a, type: 2}
+  m_sharedMaterial: {fileID: 2153858748478331716, guid: 9645f125beec90c4c984ec7f681fbb9a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1049,10 +1049,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Intro Scene
+  m_text: "Intro Scene\n\uC778\uD2B8\uB85C \uC52C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9645f125beec90c4c984ec7f681fbb9a, type: 2}
+  m_sharedMaterial: {fileID: 2153858748478331716, guid: 9645f125beec90c4c984ec7f681fbb9a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1254,6 +1254,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1862098221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22584e1b476aab540bd0b4ba08b6a3d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a3fbf8ff951f9749b05dce84d5c3dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
