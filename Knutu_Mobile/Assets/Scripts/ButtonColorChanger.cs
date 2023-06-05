@@ -5,19 +5,19 @@ using UnityEngine.UI;
 
 public class ButtonColorChanger : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    [SerializeField] private TextMeshProUGUI buttonText;
-    [SerializeField] private Color normalColor;
-    [SerializeField] private Color pressedColor;
+    public TextMeshProUGUI buttonText;
+    public Color normalColor;
+    public Color pressedColor;
 
     // 클릭 버튼을 눌렀을 때
     public void OnPointerDown(PointerEventData _eventData)
     {
-        this.buttonText.color = pressedColor;
+        this.buttonText.color = this.pressedColor;
     }
 
     // 클릭 버튼을 땠을 때
     public void OnPointerUp(PointerEventData _eventData)
     {
-        this.buttonText.color = normalColor;
+        this.buttonText.color = this.normalColor;
     }
 }
