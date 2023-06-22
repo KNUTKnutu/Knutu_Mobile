@@ -11,10 +11,9 @@ public class TogglePasswordVisibility : MonoBehaviour
 
     void Start()
     {
-        // 토글에 이벤트 리스너 추가
         passwordToggle.onValueChanged.AddListener(UpdatePasswordVisibility);
 
-        //초기 contentType 설정 (숨김상태)
+        // 초기 contentType 설정 (숨김상태)
         passwordToggle.isOn = true;
         passwordInputField.contentType = passwordType;
     }
@@ -22,14 +21,10 @@ public class TogglePasswordVisibility : MonoBehaviour
     // 토글 값이 변경될 때 호출되는 메소드
     void UpdatePasswordVisibility(bool _isChecked)
     {
-        if (_isChecked)
-            // 토글이 선택되면 비밀번호를 숨김
-            passwordInputField.contentType = passwordType;
-        else
-            // 토글이 해제되면 비밀번호를 표시
-            passwordInputField.contentType = standardType;
+        // 토글 값에 따라 비밀번호 표시 여부 결정
+        passwordInputField.contentType = _isChecked ? passwordType : standardType;
 
-        //contentType이 변경되면 UI갱신
+        // contentType이 변경되면 UI 갱신
         passwordInputField.ForceLabelUpdate();
     }
 
